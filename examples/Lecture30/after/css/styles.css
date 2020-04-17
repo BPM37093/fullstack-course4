@@ -34,6 +34,7 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
+/* 指针悬浮和点击的时候没有下划线 */
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
