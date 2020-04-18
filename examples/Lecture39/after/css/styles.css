@@ -107,7 +107,7 @@ body {
 #testimonials {
   font-style: italic;
 }
-#testimonials p:nth-child(2) {
+#testimonials p:nth-child(2) {  /* p里面的第二段与上面的举例是25px */
   margin-top: 25px;
 }
 /* END FOOTER */
@@ -124,7 +124,7 @@ body {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
-  position: relative;
+  position: relative; /* 重要的设置，相当于设定个锚点（具体还需要再学习一下） */
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
@@ -140,7 +140,7 @@ body {
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   right: 0;
   width: 100%;
@@ -149,7 +149,7 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .8;
+  opacity: .8; /* 不透明度 */
 }
 /* END HOME PAGE */
 
